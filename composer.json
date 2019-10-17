@@ -1,0 +1,65 @@
+{
+    "name": "pixaven/pixaven-php",
+    "description": "Official PHP integration for the Pixaven Image API - enterprise-grade image processing SaaS running entirely on Apple® platform. Resize, scale, crop, mask, filter and enhance your images with blazing speed.",
+    "license": "MIT",
+    "keywords": [
+        "pixaven",
+        "image",
+        "image processing",
+        "image resizing",
+        "image resizer",
+        "image cropping",
+        "image scaling",
+        "image masking",
+        "image watermarking",
+        "image filtering",
+        "image thumbnails",
+        "pic",
+        "picture",
+        "photo",
+        "face",
+        "face detection",
+        "visual",
+        "watermark",
+        "filter",
+        "crop",
+        "mask",
+        "resize",
+        "resizer",
+        "thumbs",
+        "thumbnail",
+        "thumbnails",
+        "jpg",
+        "jpeg",
+        "png",
+        "gif",
+        "svg",
+        "bmp",
+        "psd",
+        "tiff"
+    ],
+    "homepage": "https://www.pixaven.com",
+    "authors": [
+        {
+            "name": "Pixaven UG",
+            "email": "support@pixaven.com"
+        }
+    ],
+    "support": {
+        "email": "support@pixaven.com"
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "lib-curl": ">=7.20.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+     "autoload": {
+        "files": [
+            "lib/Pixaven.php"
+        ],
+        "psr-4": {
+            "Pixaven\\": "lib/Pixaven/"
+        }
+    }
+}
