@@ -8,8 +8,6 @@ Pixaven is a modern, GPU-powered image processing API.<br>We transform, enhance,
 <p align="center">
 <strong>The official PHP integration for the Pixaven API.</strong><br>
 <br>
-<img src="https://img.shields.io/packagist/v/pixaven/pixaven-php?style=flat&color=success"/>
-<img src="https://img.shields.io/snyk/vulnerabilities/github/pixaven/pixaven-php?style=flat&color=success"/>
 <img src="https://img.shields.io/github/issues-raw/pixaven/pixaven-php?style=flat&color=success"/>
 <img src="https://img.shields.io/packagist/l/pixaven/pixaven-php?style=flat&color=success"/>
 <img src="https://img.shields.io/twitter/follow/pixaven?label=Follow%20Us&style=flat&color=success&logo=twitter"/>
