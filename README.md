@@ -23,7 +23,7 @@ See the [Pixaven API docs](https://docs.pixaven.com/).
 
 ### Installation
 ```bash
-$ pip install pixaven
+$ composer require pixaven/pixaven-php
 ```
 
 ### Quick examples
