@@ -106,6 +106,22 @@ class Pixaven {
 
 
     /**
+    * Flips an image
+    *
+    * @param {Array} data
+    * @returns {Pixaven}
+    */
+
+    public function flip($data = array()) {
+        if (!empty($data)) {
+            $this->options['request']['flip'] = $data;
+        }
+
+        return $this;
+    }
+
+
+    /**
     * Resizes an image
     *
     * @param {Array} data
